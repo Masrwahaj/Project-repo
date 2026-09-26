@@ -11,7 +11,7 @@ pipeline {
 
         stage('Clone Repo') {
             steps {
-                git branch: 'main', url: 'https://github.com/Masrwahaj/my-repo.git'
+                git branch: 'main', url: 'https://github.com/Masrwahaj/Project-repo.git'
             }
         }
 
